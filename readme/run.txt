@@ -1,0 +1,1 @@
+g++ encode_decode.cpp messageDigestFive.cpp jsoncpp.cpp  base64_ed.cpp rsa_ed.cpp commonSense.cpp `pkg-config --cflags --libs opencv4` -L/usr/local/lib -lssl -lcrypto -ldl -lpthread -o u
